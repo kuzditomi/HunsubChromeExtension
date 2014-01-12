@@ -1,0 +1,20 @@
+﻿{
+	"manifest_version": 2,
+	"name": "d2jsp hunsub extension",
+	"description": "postblocker",
+	"author":  "Tamás Küzdi",
+	"version": "1.0",
+	"permissions": [
+		"storage"
+	],
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*.d2jsp.org/*"],
+			"js": ["blocker.js"]
+		}
+	]
+}
