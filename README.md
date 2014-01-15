@@ -6,7 +6,7 @@
 - unblock users
 
 ##install guide
-- [download the latest extension!](https://github.com/kuzditomi/HubsubChromeExtension/raw/master/build/d2jsp-hunsub-chrome-extension-1.0.crx)
+- [download the latest extension!](https://github.com/kuzditomi/HubsubChromeExtension/raw/master/build/d2jsp-hunsub-chrome-extension-1.1.crx)
 - in Google Chrome navigate to Tools -> Extension page
 - drag and drop the extension file into Extension page, a "Drop to install" subtitle should appear
 - if you did everything rigth, Google Chrome alerts you about the new extension
