@@ -30,8 +30,7 @@ function addButtons(){
 			});
 		})(userId,userName);
 
-		blockLink.textContent = "block";
-		blockLink.style.color = "red";
+		blockLink.textContent = "Block";
 		blockLink.style.cursor = "pointer";
 		links.appendChild(blockLink);
 	}
