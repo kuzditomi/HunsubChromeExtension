@@ -53,10 +53,16 @@ function blockUsers(blockQuotes){
 			if(blockedUsers[userId]){
 				userDiv.parentNode.removeChild(userDiv);
 			}else if(blockQuotes){
-				var quoteDivs = userDiv.querySelectorAll('.quote1');
+				var quoteDivs = userDiv.querySelectorAll('.quote1'),
+                    quoteDiv,
+                    userName,
+                    match;
 				for(var j = 0;j<quoteDivs.length;j++){
-					var quoteDiv = quoteDivs[j];
-					var userName = quoteDiv.textContent.match(/Quote\s\(([^\s]+)/)[1];
+					quoteDiv = quoteDivs[j];
+                    match = quoteDiv.textContent.match(/Quote\s\(([^\s]+)/);
+                    if(!match)
+                        return;
+                    userName = match[1];
 					for(var prop in blockedUsers) {
 						if(blockedUsers.hasOwnProperty(prop)) {
 							if(blockedUsers[prop] === userName) {

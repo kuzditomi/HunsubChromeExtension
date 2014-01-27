@@ -45,12 +45,3 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	});	
 });
-
-var enableHandler = function(i){
-	return (function(){
-		delete blockedUsers[i];
-		chrome.storage.sync.set({'blockedUsers': blockedUsers},function(){
-			alert('ok');
-		});
-	})(i);
-}
