@@ -61,7 +61,7 @@ function blockUsers(blockQuotes){
 					quoteDiv = quoteDivs[j];
                     match = quoteDiv.textContent.match(/Quote\s\(([^\s]+)/);
                     if(!match)
-                        return;
+                        continue;
                     userName = match[1];
 					for(var prop in blockedUsers) {
 						if(blockedUsers.hasOwnProperty(prop)) {
