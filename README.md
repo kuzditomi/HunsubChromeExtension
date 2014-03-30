@@ -1,5 +1,12 @@
 #d2jsp Hunsub Chrome Extension
 
+
+##v1.3
+- bugfix
+
+##v1.2
+- bugfix
+
 ##v1.1
 - block option is now black
 
