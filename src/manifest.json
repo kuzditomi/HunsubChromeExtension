@@ -14,7 +14,7 @@
 	"content_scripts": [
 		{
 			"matches": ["http://*.d2jsp.org/*"],
-			"js": ["blocker.js"]
+			"js": ["jquery-2.1.0.min.js", "blocker.js"]
 		}
 	]
 }

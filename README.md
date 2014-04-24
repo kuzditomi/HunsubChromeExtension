@@ -1,5 +1,7 @@
 #d2jsp Hunsub Chrome Extension
 
+##v1.4 beta
+- Setting added to enable auto loading of next page
 
 ##v1.3
 - bugfix
@@ -16,7 +18,7 @@
 - unblock users
 
 ##install guide
-- [download the latest extension!](https://github.com/kuzditomi/HubsubChromeExtension/raw/master/build/d2jsp-hunsub-chrome-extension-1.3.crx)
+- [download the latest extension!](https://github.com/kuzditomi/HubsubChromeExtension/raw/master/build/d2jsp-hunsub-chrome-extension-1.4.crx)
 - in Google Chrome navigate to Tools -> Extension page
 - drag and drop the extension file into Extension page, a "Drop to install" subtitle should appear
 - if you did everything right, Google Chrome alerts you about the new extension
